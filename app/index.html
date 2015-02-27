@@ -1,7 +1,53 @@
 <html>
 <head>
-<title>Launcher</title>
+	<title>Twelve Sky Launcher - Ininite Sky</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src=".\js\jquery-1.11.2.min.js"></script>
+	<script src=".\js\main.js"></script>
+</head>
 <body>
-<h1>Woo</h1>
+	<div id="topbar">
+		<span class="left">Twelve Sky Launcher</span>
+		<span class="right">X</span>
+    </div>
+	<div id="content">
+		<span id="version"></span>
+		<span id="server_status">Server Status: Please wait...</span>
+	<div id="login">
+		<label for="username">Username:</label>
+		<input id="username" type="text" name="username"></input>
+		<label for="password">Password:</label>
+		<input id="password" type="password" name="password"></input>
+		<input type="checkbox" name="remember" id="remember">
+		<label for="checkbox_id">Remember Me?</label></input>
+	</div>
+
+	<div id="patchnote_box">
+		<iframe id="patchnotes" src=""></iframe>
+	</div>
+  	<form>
+ <fieldset id="download_box">
+  <legend>Personalia:</legend>
+	<div class="vscroll">
+		Download1 </br>
+		Download2 </br>
+		Download3 </br>
+		Download4 </br>
+		Download5 </br>
+		Download6 </br>
+	</div>
+</fieldset>
+	</form>
+
+	<div id="patching_box">
+	</div>
+	<div id="buttons_box">
+		<button id="btnOptions">Options</button>
+		<button id="btnRegister">Register</button>
+		<button id="btnCommunity">Community</button>
+		<button id="btnStartGame">Start Game</button>
+	</div>
+
+	</div>
 </body>
 </html>
